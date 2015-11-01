@@ -46,10 +46,10 @@ public class Component {
 		 */
 		public int biggestXInArray(int width)
 		{
-			int bigX = x.get(0)%width; //TODO why is it modulo width?
+			int bigX = x.get(0); 
 			for (int i=0; i<x.size();i++)
 			{
-					int z = x.get(i)%width;
+					int z = x.get(i);
 					if(z > bigX)
 					{
 						bigX = z;
@@ -65,10 +65,10 @@ public class Component {
 		 */
 		public int smallestXInArray(int width)
 		{
-			int smallX = x.get(0)%width; //TODO why is it modulo width?
+			int smallX = x.get(0);
 			for (int i=0; i<x.size();i++)
 			{
-				int z = x.get(i)%width;
+				int z = x.get(i);
 				if(z < smallX)
 				{
 					smallX = z;
@@ -84,10 +84,10 @@ public class Component {
 		 */
 		public int biggestYInArray(int width)
 		{
-			int bigY = x.get(0)/width; //TODO why is it divide height?
+			int bigY = x.get(0);
 			for (int i=0; i<x.size();i++)
 			{
-					int z = x.get(i)/width;
+					int z = x.get(i);
 					if(z > bigY)
 					{
 						bigY = z;
@@ -103,10 +103,10 @@ public class Component {
 		 */
 		public int smallestYInArray(int width)
 		{
-			int smallY = x.get(0)/width; //TODO why is it divide height?
+			int smallY = x.get(0);
 			for (int i=0; i<x.size();i++)
 			{
-				int z = x.get(i)/width;
+				int z = x.get(i);
 				if(z < smallY)
 				{
 					smallY = z;
